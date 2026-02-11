@@ -1,0 +1,760 @@
+[
+  {
+    "arxiv_id": "2307.10838v2",
+    "title": "A Hybrid Adaptive Controller for Soft Robot Interchangeability",
+    "authors": [
+      "Zixi Chen",
+      "Xuyang Ren",
+      "Matteo Bernabei",
+      "Vanessa Mainardi",
+      "Gastone Ciuti",
+      "Cesare Stefanini"
+    ],
+    "abstract": "Soft robots have been leveraged in considerable areas like surgery, rehabilitation, and bionics due to their softness, flexibility, and safety. However, it is challenging to produce two same soft robots even with the same mold and manufacturing process owing to the complexity of soft materials. Meanwhile, widespread usage of a system requires the ability to replace inner components without highly affecting system performance, which is interchangeability. Due to the necessity of this property, a hybrid adaptive controller is introduced to achieve interchangeability from the perspective of control approaches. This method utilizes an offline-trained recurrent neural network controller to cope with the nonlinear and delayed response from soft robots. Furthermore, an online optimizing kinematics controller is applied to decrease the error caused by the above neural network controller. Soft pneumatic robots with different deformation properties but the same mold have been included for validation experiments. In the experiments, the systems with different actuation configurations and the different robots follow the desired trajectory with errors of 3.3 +- 2.9% and 4.3 +- 4.1% compared with the working space length, respectively. Such an adaptive controller also shows good performance on different control frequencies and desired velocities. This controller is also compared with a model-based controller in simulation. This controller endows soft robots with the potential for wide application, and future work may include different offline and online controllers. A weight parameter adjusting strategy may also be proposed in the future.",
+    "published": "2023-07-20",
+    "updated": "2023-11-22",
+    "categories": [
+      "cs.RO"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2307.10838v2.pdf",
+    "arxiv_url": "https://arxiv.org/abs/2307.10838v2"
+  },
+  {
+    "arxiv_id": "2406.17333v1",
+    "title": "Task Adaptation in Industrial Human-Robot Interaction: Leveraging Riemannian Motion Policies",
+    "authors": [
+      "Mike Allenspach",
+      "Michael Pantic",
+      "Rik Girod",
+      "Lionel Ott",
+      "Roland Siegwart"
+    ],
+    "abstract": "In real-world industrial environments, modern robots often rely on human operators for crucial decision-making and mission synthesis from individual tasks. Effective and safe collaboration between humans and robots requires systems that can adjust their motion based on human intentions, enabling dynamic task planning and adaptation. Addressing the needs of industrial applications, we propose a motion control framework that (i) removes the need for manual control of the robot's movement; (ii) facilitates the formulation and combination of complex tasks; and (iii) allows the seamless integration of human intent recognition and robot motion planning. For this purpose, we leverage a modular and purely reactive approach for task parametrization and motion generation, embodied by Riemannian Motion Policies. The effectiveness of our method is demonstrated, evaluated, and compared to \\remove{state-of-the-art approaches}\\add{a representative state-of-the-art approach} in experimental scenarios inspired by realistic industrial Human-Robot Interaction settings.",
+    "published": "2024-06-25",
+    "updated": "2024-06-25",
+    "categories": [
+      "cs.RO"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2406.17333v1.pdf",
+    "arxiv_url": "https://arxiv.org/abs/2406.17333v1"
+  },
+  {
+    "arxiv_id": "2302.14334v2",
+    "title": "Design of an Adaptive Lightweight LiDAR to Decouple Robot-Camera Geometry",
+    "authors": [
+      "Yuyang Chen",
+      "Dingkang Wang",
+      "Lenworth Thomas",
+      "Karthik Dantu",
+      "Sanjeev J. Koppal"
+    ],
+    "abstract": "A fundamental challenge in robot perception is the coupling of the sensor pose and robot pose. This has led to research in active vision where robot pose is changed to reorient the sensor to areas of interest for perception. Further, egomotion such as jitter, and external effects such as wind and others affect perception requiring additional effort in software such as image stabilization. This effect is particularly pronounced in micro-air vehicles and micro-robots who typically are lighter and subject to larger jitter but do not have the computational capability to perform stabilization in real-time. We present a novel microelectromechanical (MEMS) mirror LiDAR system to change the field of view of the LiDAR independent of the robot motion. Our design has the potential for use on small, low-power systems where the expensive components of the LiDAR can be placed external to the small robot. We show the utility of our approach in simulation and on prototype hardware mounted on a UAV. We believe that this LiDAR and its compact movable scanning design provide mechanisms to decouple robot and sensor geometry allowing us to simplify robot perception. We also demonstrate examples of motion compensation using IMU and external odometry feedback in hardware.",
+    "published": "2023-02-28",
+    "updated": "2024-03-01",
+    "categories": [
+      "cs.RO"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2302.14334v2.pdf",
+    "arxiv_url": "https://arxiv.org/abs/2302.14334v2"
+  },
+  {
+    "arxiv_id": "2502.04012v1",
+    "title": "Malleable Robots",
+    "authors": [
+      "Angus B. Clark",
+      "Xinran Wang",
+      "Alex Ranne",
+      "Nicolas Rojas"
+    ],
+    "abstract": "This chapter is about the fundamentals of fabrication, control, and human-robot interaction of a new type of collaborative robotic manipulators, called malleable robots, which are based on adjustable architectures of varying stiffness for achieving high dexterity with lower mobility arms. Collaborative robots, or cobots, commonly integrate six or more degrees of freedom (DOF) in a serial arm in order to allow positioning in constrained spaces and adaptability across tasks. Increasing the dexterity of robotic arms has been indeed traditionally accomplished by increasing the number of degrees of freedom of the system; however, once a robotic task has been established (e.g., a pick-and-place operation), the motion of the end-effector can be normally achieved using less than 6-DOF (i.e., lower mobility). The aim of malleable robots is to close the technological gap that separates current cobots from achieving flexible, accessible manufacturing automation with a reduced number of actuators.",
+    "published": "2025-02-06",
+    "updated": "2025-02-06",
+    "categories": [
+      "cs.RO"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2502.04012v1.pdf",
+    "arxiv_url": "https://arxiv.org/abs/2502.04012v1"
+  },
+  {
+    "arxiv_id": "2402.07021v1",
+    "title": "Bayesian Optimization with Adaptive Kernels for Robot Control",
+    "authors": [
+      "Ruben Martinez-Cantin"
+    ],
+    "abstract": "Active policy search combines the trial-and-error methodology from policy search with Bayesian optimization to actively find the optimal policy. First, policy search is a type of reinforcement learning which has become very popular for robot control, for its ability to deal with complex continuous state and action spaces. Second, Bayesian optimization is a sample efficient global optimization method that uses a surrogate model, like a Gaussian process, and optimal decision making to carefully select each sample during the optimization process. Sample efficiency is of paramount importance when each trial involves the real robot, expensive Monte Carlo runs, or a complex simulator. Black-box Bayesian optimization generally assumes a cost function from a stationary process, because nonstationary modeling is usually based on prior knowledge. However, many control problems are inherently nonstationary due to their failure conditions, terminal states and other abrupt effects. In this paper, we present a kernel function specially designed for Bayesian optimization, that allows nonstationary modeling without prior knowledge, using an adaptive local region. The new kernel results in an improved local search (exploitation), without penalizing the global search (exploration), as shown experimentally in well-known optimization benchmarks and robot control scenarios. We finally show its potential for the design of the wing shape of a UAV.",
+    "published": "2024-02-10",
+    "updated": "2024-02-10",
+    "categories": [
+      "cs.RO"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2402.07021v1.pdf",
+    "arxiv_url": "https://arxiv.org/abs/2402.07021v1"
+  },
+  {
+    "arxiv_id": "2511.08732v1",
+    "title": "Intuitive Programming, Adaptive Task Planning, and Dynamic Role Allocation in Human-Robot Collaboration",
+    "authors": [
+      "Marta Lagomarsino",
+      "Elena Merlo",
+      "Andrea Pupa",
+      "Timo Birr",
+      "Franziska Krebs",
+      "Cristian Secchi",
+      "Tamim Asfour",
+      "Arash Ajoudani"
+    ],
+    "abstract": "Remarkable capabilities have been achieved by robotics and AI, mastering complex tasks and environments. Yet, humans often remain passive observers, fascinated but uncertain how to engage. Robots, in turn, cannot reach their full potential in human-populated environments without effectively modeling human states and intentions and adapting their behavior. To achieve a synergistic human-robot collaboration (HRC), a continuous information flow should be established: humans must intuitively communicate instructions, share expertise, and express needs. In parallel, robots must clearly convey their internal state and forthcoming actions to keep users informed, comfortable, and in control. This review identifies and connects key components enabling intuitive information exchange and skill transfer between humans and robots. We examine the full interaction pipeline: from the human-to-robot communication bridge translating multimodal inputs into robot-understandable representations, through adaptive planning and role allocation, to the control layer and feedback mechanisms to close the loop. Finally, we highlight trends and promising directions toward more adaptive, accessible HRC.",
+    "published": "2025-11-11",
+    "updated": "2025-11-11",
+    "categories": [
+      "cs.RO",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2511.08732v1.pdf",
+    "arxiv_url": "https://arxiv.org/abs/2511.08732v1"
+  },
+  {
+    "arxiv_id": "2212.01246v1",
+    "title": "ViTAL: Vision-Based Terrain-Aware Locomotion for Legged Robots",
+    "authors": [
+      "Shamel Fahmi",
+      "Victor Barasuol",
+      "Domingo Esteban",
+      "Octavio Villarreal",
+      "Claudio Semini"
+    ],
+    "abstract": "This work is on vision-based planning strategies for legged robots that separate locomotion planning into foothold selection and pose adaptation. Current pose adaptation strategies optimize the robot's body pose relative to given footholds. If these footholds are not reached, the robot may end up in a state with no reachable safe footholds. Therefore, we present a Vision-Based Terrain-Aware Locomotion (ViTAL) strategy that consists of novel pose adaptation and foothold selection algorithms. ViTAL introduces a different paradigm in pose adaptation that does not optimize the body pose relative to given footholds, but the body pose that maximizes the chances of the legs in reaching safe footholds. ViTAL plans footholds and poses based on skills that characterize the robot's capabilities and its terrain-awareness. We use the 90 kg HyQ and 140 kg HyQReal quadruped robots to validate ViTAL, and show that they are able to climb various obstacles including stairs, gaps, and rough terrains at different speeds and gaits. We compare ViTAL with a baseline strategy that selects the robot pose based on given selected footholds, and show that ViTAL outperforms the baseline.",
+    "published": "2022-12-02",
+    "updated": "2022-12-02",
+    "categories": [
+      "cs.RO"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2212.01246v1.pdf",
+    "arxiv_url": "https://arxiv.org/abs/2212.01246v1"
+  },
+  {
+    "arxiv_id": "2306.07035v1",
+    "title": "Stochastic Approach for Modeling a Soft Robotic Finger with Creep Behavior",
+    "authors": [
+      "Sumitaka Honji",
+      "Hikaru Arita",
+      "Kenji Tahara"
+    ],
+    "abstract": "Soft robots have high adaptability and safeness which are derived from their softness, and therefore it is paid attention to use them in human society. However, the controllability of soft robots is not enough to perform dexterous behaviors when considering soft robots as alternative laborers for humans. The model-based control is effective to achieve dexterous behaviors. When considering building a model which is suitable for control, there are problems based on their special properties such as the creep behavior or the variability of motion. In this paper, the lumped parameterized model with viscoelastic joints for a soft finger is established for the creep behavior. Parameters are expressed as distributions, which makes it possible to take into account the variability of motion. Furthermore, stochastic analyses are performed based on the parameters' distribution. They show high adaptivity compared with experimental results and also enable the investigation of the effects of parameters for robots' variability.",
+    "published": "2023-06-12",
+    "updated": "2023-06-12",
+    "categories": [
+      "cs.RO"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2306.07035v1.pdf",
+    "arxiv_url": "https://arxiv.org/abs/2306.07035v1"
+  },
+  {
+    "arxiv_id": "2109.07120v3",
+    "title": "Infusing model predictive control into meta-reinforcement learning for mobile robots in dynamic environments",
+    "authors": [
+      "Jaeuk Shin",
+      "Astghik Hakobyan",
+      "Mingyu Park",
+      "Yeoneung Kim",
+      "Gihun Kim",
+      "Insoon Yang"
+    ],
+    "abstract": "The successful operation of mobile robots requires them to adapt rapidly to environmental changes. To develop an adaptive decision-making tool for mobile robots, we propose a novel algorithm that combines meta-reinforcement learning (meta-RL) with model predictive control (MPC). Our method employs an off-policy meta-RL algorithm as a baseline to train a policy using transition samples generated by MPC when the robot detects certain events that can be effectively handled by MPC, with its explicit use of robot dynamics. The key idea of our method is to switch between the meta-learned policy and the MPC controller in a randomized and event-triggered fashion to make up for suboptimal MPC actions caused by the limited prediction horizon. During meta-testing, the MPC module is deactivated to significantly reduce computation time in motion control. We further propose an online adaptation scheme that enables the robot to infer and adapt to a new task within a single trajectory. The performance of our method has been demonstrated through simulations using a nonlinear car-like vehicle model with (i) synthetic movements of obstacles, and (ii) real-world pedestrian motion data. The simulation results indicate that our method outperforms other algorithms in terms of learning efficiency and navigation quality.",
+    "published": "2021-09-15",
+    "updated": "2022-07-07",
+    "categories": [
+      "cs.RO",
+      "eess.SY"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2109.07120v3.pdf",
+    "arxiv_url": "https://arxiv.org/abs/2109.07120v3"
+  },
+  {
+    "arxiv_id": "2602.06967v1",
+    "title": "Leveraging Adaptive Group Negotiation for Heterogeneous Multi-Robot Collaboration with Large Language Models",
+    "authors": [
+      "Siqi Song",
+      "Xuanbing Xie",
+      "Zonglin Li",
+      "Yuqiang Li",
+      "Shijie Wang",
+      "Biqing Qi"
+    ],
+    "abstract": "Multi-robot collaboration tasks often require heterogeneous robots to work together over long horizons under spatial constraints and environmental uncertainties. Although Large Language Models (LLMs) excel at reasoning and planning, their potential for coordinated control has not been fully explored. Inspired by human teamwork, we present CLiMRS (Cooperative Large-Language-Model-Driven Heterogeneous Multi-Robot System), an adaptive group negotiation framework among LLMs for multi-robot collaboration. This framework pairs each robot with an LLM agent and dynamically forms subgroups through a general proposal planner. Within each subgroup, a subgroup manager leads perception-driven multi-LLM discussions to get commands for actions. Feedback is provided by both robot execution outcomes and environment changes. This grouping-planning-execution-feedback loop enables efficient planning and robust execution. To evaluate these capabilities, we introduce CLiMBench, a heterogeneous multi-robot benchmark of challenging assembly tasks. Our experiments show that CLiMRS surpasses the best baseline, achieving over 40% higher efficiency on complex tasks without sacrificing success on simpler ones. Overall, our results demonstrate that leveraging human-inspired group formation and negotiation principles significantly enhances the efficiency of heterogeneous multi-robot collaboration. Our code is available here: https://github.com/song-siqi/CLiMRS.",
+    "published": "2025-12-29",
+    "updated": "2025-12-29",
+    "categories": [
+      "cs.RO",
+      "cs.AI",
+      "cs.CL"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2602.06967v1.pdf",
+    "arxiv_url": "https://arxiv.org/abs/2602.06967v1"
+  },
+  {
+    "arxiv_id": "2408.00151v1",
+    "title": "Moderating Group Conversation Dynamics with Social Robots",
+    "authors": [
+      "Lucrezia Grassi",
+      "Carmine Tommaso Recchiuto",
+      "Antonio Sgorbissa"
+    ],
+    "abstract": "This research investigates the impact of social robot participation in group conversations and assesses the effectiveness of various addressing policies. The study involved 300 participants, divided into groups of four, interacting with a humanoid robot serving as the moderator. The robot utilized conversation data to determine the most appropriate speaker to address. The findings indicate that the robot's addressing policy significantly influenced conversation dynamics, resulting in more balanced attention to each participant and a reduction in subgroup formation.",
+    "published": "2024-07-31",
+    "updated": "2024-07-31",
+    "categories": [
+      "cs.RO",
+      "cs.AI"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2408.00151v1.pdf",
+    "arxiv_url": "https://arxiv.org/abs/2408.00151v1"
+  },
+  {
+    "arxiv_id": "2112.01942v3",
+    "title": "A Survey of Robot Manipulation in Contact",
+    "authors": [
+      "Markku Suomalainen",
+      "Yiannis Karayiannidis",
+      "Ville Kyrki"
+    ],
+    "abstract": "In this survey, we present the current status on robots performing manipulation tasks that require varying contact with the environment, such that the robot must either implicitly or explicitly control the contact force with the environment to complete the task. Robots can perform more and more manipulation tasks that are still done by humans, and there is a growing number of publications on the topics of 1) performing tasks that always require contact and 2) mitigating uncertainty by leveraging the environment in tasks that, under perfect information, could be performed without contact. The recent trends have seen robots perform tasks earlier left for humans, such as massage, and in the classical tasks, such as peg-in-hole, there is a more efficient generalization to other similar tasks, better error tolerance, and faster planning or learning of the tasks. Thus, in this survey we cover the current stage of robots performing such tasks, starting from surveying all the different in-contact tasks robots can perform, observing how these tasks are controlled and represented, and finally presenting the learning and planning of the skills required to complete these tasks.",
+    "published": "2021-12-03",
+    "updated": "2022-07-25",
+    "categories": [
+      "cs.RO"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2112.01942v3.pdf",
+    "arxiv_url": "https://arxiv.org/abs/2112.01942v3"
+  },
+  {
+    "arxiv_id": "2407.18009v1",
+    "title": "Egocentric Robots in a Human-Centric World? Exploring Group-Robot-Interaction in Public Spaces",
+    "authors": [
+      "Ana Müller",
+      "Anja Richert"
+    ],
+    "abstract": "The deployment of social robots in real-world scenarios is increasing, supporting humans in various contexts. However, they still struggle to grasp social dynamics, especially in public spaces, sometimes resulting in violations of social norms, such as interrupting human conversations. This behavior, originating from a limited processing of social norms, might be perceived as robot-centered. Understanding social dynamics, particularly in group-robot-interactions (GRI), underscores the need for further research and development in human-robot-interaction (HRI). Enhancing the interaction abilities of social robots, especially in GRIs, can improve their effectiveness in real-world applications on a micro-level, as group interactions lead to increased motivation and comfort. In this study, we assessed the influence of the interaction condition (dyadic vs. triadic) on the perceived extraversion (ext.) of social robots in public spaces. The research involved 40 HRIs, including 24 dyadic (i.e., one human and one robot) interactions and 16 triadic interactions, which involve at least three entities, including the robot.",
+    "published": "2024-07-25",
+    "updated": "2024-07-25",
+    "categories": [
+      "cs.RO"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2407.18009v1.pdf",
+    "arxiv_url": "https://arxiv.org/abs/2407.18009v1"
+  },
+  {
+    "arxiv_id": "2111.00944v2",
+    "title": "Piezoelectric Soft Robot Inchworm Motion by Tuning Ground Friction through Robot Shape: Quasi-Static Modeling and Experimental Validation",
+    "authors": [
+      "Zhiwu Zheng",
+      "Prakhar Kumar",
+      "Yenan Chen",
+      "Hsin Cheng",
+      "Sigurd Wagner",
+      "Minjie Chen",
+      "Naveen Verma",
+      "James C. Sturm"
+    ],
+    "abstract": "Electrically-driven soft robots based on piezoelectric actuators may enable compact form factors and maneuverability in complex environments. In most prior work, piezoelectric actuators are used to control a single degree of freedom. In this work, the coordinated activation of five independent piezoelectric actuators, attached to a common metal foil, is used to implement inchworm-inspired crawling motion in a robot that is less than 0.5 mm thick. The motion is based on the control of its friction to the ground through the robot's shape, in which one end of the robot (depending on its shape) is anchored to the ground by static friction, while the rest of its body expands or contracts. A complete analytical model of the robot shape, which includes gravity, is developed to quantify the robot shape, friction, and displacement. After validation of the model by experiments, the robot's five actuators are collectively sequenced for inchworm-like forward and backward motion.",
+    "published": "2021-11-01",
+    "updated": "2023-12-14",
+    "categories": [
+      "cs.RO"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2111.00944v2.pdf",
+    "arxiv_url": "https://arxiv.org/abs/2111.00944v2"
+  },
+  {
+    "arxiv_id": "2201.12900v2",
+    "title": "Learning Optimal Topology for Ad-hoc Robot Networks",
+    "authors": [
+      "Matin Macktoobian",
+      "Zhan Shu",
+      "Qing Zhao"
+    ],
+    "abstract": "In this paper, we synthesize a data-driven method to predict the optimal topology of an ad-hoc robot network. This problem is technically a multi-task classification problem. However, we divide it into a class of multi-class classification problems that can be more efficiently solved. For this purpose, we first compose an algorithm to create ground-truth optimal topologies associated with various configurations of a robot network. This algorithm incorporates a complex collection of optimality criteria that our learning model successfully manages to learn. This model is an stacked ensemble whose output is the topology prediction for a particular robot. Each stacked ensemble instance constitutes three low-level estimators whose outputs will be aggregated by a high-level boosting blender. Applying our model to a network of 10 robots displays over 80% accuracy in the prediction of optimal topologies corresponding to various configurations of the cited network.",
+    "published": "2022-01-30",
+    "updated": "2024-04-04",
+    "categories": [
+      "cs.RO",
+      "cs.LG"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2201.12900v2.pdf",
+    "arxiv_url": "https://arxiv.org/abs/2201.12900v2"
+  },
+  {
+    "arxiv_id": "2406.14097v2",
+    "title": "Enhancing the LLM-Based Robot Manipulation Through Human-Robot Collaboration",
+    "authors": [
+      "Haokun Liu",
+      "Yaonan Zhu",
+      "Kenji Kato",
+      "Atsushi Tsukahara",
+      "Izumi Kondo",
+      "Tadayoshi Aoyama",
+      "Yasuhisa Hasegawa"
+    ],
+    "abstract": "Large Language Models (LLMs) are gaining popularity in the field of robotics. However, LLM-based robots are limited to simple, repetitive motions due to the poor integration between language models, robots, and the environment. This paper proposes a novel approach to enhance the performance of LLM-based autonomous manipulation through Human-Robot Collaboration (HRC). The approach involves using a prompted GPT-4 language model to decompose high-level language commands into sequences of motions that can be executed by the robot. The system also employs a YOLO-based perception algorithm, providing visual cues to the LLM, which aids in planning feasible motions within the specific environment. Additionally, an HRC method is proposed by combining teleoperation and Dynamic Movement Primitives (DMP), allowing the LLM-based robot to learn from human guidance. Real-world experiments have been conducted using the Toyota Human Support Robot for manipulation tasks. The outcomes indicate that tasks requiring complex trajectory planning and reasoning over environments can be efficiently accomplished through the incorporation of human demonstrations.",
+    "published": "2024-06-20",
+    "updated": "2024-07-01",
+    "categories": [
+      "cs.RO",
+      "cs.AI",
+      "cs.HC"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2406.14097v2.pdf",
+    "arxiv_url": "https://arxiv.org/abs/2406.14097v2"
+  },
+  {
+    "arxiv_id": "2006.08845v1",
+    "title": "Optimal Sequential Task Assignment and Path Finding for Multi-Agent Robotic Assembly Planning",
+    "authors": [
+      "Kyle Brown",
+      "Oriana Peltzer",
+      "Martin A. Sehr",
+      "Mac Schwager",
+      "Mykel J. Kochenderfer"
+    ],
+    "abstract": "We study the problem of sequential task assignment and collision-free routing for large teams of robots in applications with inter-task precedence constraints (e.g., task $A$ and task $B$ must both be completed before task $C$ may begin). Such problems commonly occur in assembly planning for robotic manufacturing applications, in which sub-assemblies must be completed before they can be combined to form the final product. We propose a hierarchical algorithm for computing makespan-optimal solutions to the problem. The algorithm is evaluated on a set of randomly generated problem instances where robots must transport objects between stations in a \"factory \"grid world environment. In addition, we demonstrate in high-fidelity simulation that the output of our algorithm can be used to generate collision-free trajectories for non-holonomic differential-drive robots.",
+    "published": "2020-06-16",
+    "updated": "2020-06-16",
+    "categories": [
+      "cs.RO",
+      "cs.AI",
+      "cs.MA"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2006.08845v1.pdf",
+    "arxiv_url": "https://arxiv.org/abs/2006.08845v1"
+  },
+  {
+    "arxiv_id": "2010.16106v3",
+    "title": "MAPS-X: Explainable Multi-Robot Motion Planning via Segmentation",
+    "authors": [
+      "Justin Kottinger",
+      "Shaull Almagor",
+      "Morteza Lahijanian"
+    ],
+    "abstract": "Traditional multi-robot motion planning (MMP) focuses on computing trajectories for multiple robots acting in an environment, such that the robots do not collide when the trajectories are taken simultaneously. In safety-critical applications, a human supervisor may want to verify that the plan is indeed collision-free. In this work, we propose a notion of explanation for a plan of MMP, based on visualization of the plan as a short sequence of images representing time segments, where in each time segment the trajectories of the agents are disjoint, clearly illustrating the safety of the plan. We show that standard notions of optimality (e.g., makespan) may create conflict with short explanations. Thus, we propose meta-algorithms, namely multi-agent plan segmenting-X (MAPS-X) and its lazy variant, that can be plugged on existing centralized sampling-based tree planners X to produce plans with good explanations using a desirable number of images. We demonstrate the efficacy of this explanation-planning scheme and extensively evaluate the performance of MAPS-X.",
+    "published": "2020-10-30",
+    "updated": "2021-04-22",
+    "categories": [
+      "cs.RO",
+      "cs.MA"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2010.16106v3.pdf",
+    "arxiv_url": "https://arxiv.org/abs/2010.16106v3"
+  },
+  {
+    "arxiv_id": "2509.05397v1",
+    "title": "RoboBallet: Planning for Multi-Robot Reaching with Graph Neural Networks and Reinforcement Learning",
+    "authors": [
+      "Matthew Lai",
+      "Keegan Go",
+      "Zhibin Li",
+      "Torsten Kroger",
+      "Stefan Schaal",
+      "Kelsey Allen",
+      "Jonathan Scholz"
+    ],
+    "abstract": "Modern robotic manufacturing requires collision-free coordination of multiple robots to complete numerous tasks in shared, obstacle-rich workspaces. Although individual tasks may be simple in isolation, automated joint task allocation, scheduling, and motion planning under spatio-temporal constraints remain computationally intractable for classical methods at real-world scales. Existing multi-arm systems deployed in the industry rely on human intuition and experience to design feasible trajectories manually in a labor-intensive process. To address this challenge, we propose a reinforcement learning (RL) framework to achieve automated task and motion planning, tested in an obstacle-rich environment with eight robots performing 40 reaching tasks in a shared workspace, where any robot can perform any task in any order. Our approach builds on a graph neural network (GNN) policy trained via RL on procedurally-generated environments with diverse obstacle layouts, robot configurations, and task distributions. It employs a graph representation of scenes and a graph policy neural network trained through reinforcement learning to generate trajectories of multiple robots, jointly solving the sub-problems of task allocation, scheduling, and motion planning. Trained on large randomly generated task sets in simulation, our policy generalizes zero-shot to unseen settings with varying robot placements, obstacle geometries, and task poses. We further demonstrate that the high-speed capability of our solution enables its use in workcell layout optimization, improving solution times. The speed and scalability of our planner also open the door to new capabilities such as fault-tolerant planning and online perception-based re-planning, where rapid adaptation to dynamic task sets is required.",
+    "published": "2025-09-05",
+    "updated": "2025-09-05",
+    "categories": [
+      "cs.RO",
+      "cs.LG"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2509.05397v1.pdf",
+    "arxiv_url": "https://arxiv.org/abs/2509.05397v1"
+  },
+  {
+    "arxiv_id": "2311.11183v3",
+    "title": "Deploying and Evaluating LLMs to Program Service Mobile Robots",
+    "authors": [
+      "Zichao Hu",
+      "Francesca Lucchetti",
+      "Claire Schlesinger",
+      "Yash Saxena",
+      "Anders Freeman",
+      "Sadanand Modak",
+      "Arjun Guha",
+      "Joydeep Biswas"
+    ],
+    "abstract": "Recent advancements in large language models (LLMs) have spurred interest in using them for generating robot programs from natural language, with promising initial results. We investigate the use of LLMs to generate programs for service mobile robots leveraging mobility, perception, and human interaction skills, and where accurate sequencing and ordering of actions is crucial for success. We contribute CodeBotler, an open-source robot-agnostic tool to program service mobile robots from natural language, and RoboEval, a benchmark for evaluating LLMs' capabilities of generating programs to complete service robot tasks. CodeBotler performs program generation via few-shot prompting of LLMs with an embedded domain-specific language (eDSL) in Python, and leverages skill abstractions to deploy generated programs on any general-purpose mobile robot. RoboEval evaluates the correctness of generated programs by checking execution traces starting with multiple initial states, and checking whether the traces satisfy temporal logic properties that encode correctness for each task. RoboEval also includes multiple prompts per task to test for the robustness of program generation. We evaluate several popular state-of-the-art LLMs with the RoboEval benchmark, and perform a thorough analysis of the modes of failures, resulting in a taxonomy that highlights common pitfalls of LLMs at generating robot programs. We release our code and benchmark at https://amrl.cs.utexas.edu/codebotler/.",
+    "published": "2023-11-18",
+    "updated": "2024-02-22",
+    "categories": [
+      "cs.RO"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2311.11183v3.pdf",
+    "arxiv_url": "https://arxiv.org/abs/2311.11183v3"
+  },
+  {
+    "arxiv_id": "2006.04194v1",
+    "title": "Robotic Motion Planning using Learned Critical Sources and Local Sampling",
+    "authors": [
+      "Rajat Kumar Jenamani",
+      "Rahul Kumar",
+      "Parth Mall",
+      "Kushal Kedia"
+    ],
+    "abstract": "Sampling based methods are widely used for robotic motion planning. Traditionally, these samples are drawn from probabilistic ( or deterministic ) distributions to cover the state space uniformly. Despite being probabilistically complete, they fail to find a feasible path in a reasonable amount of time in constrained environments where it is essential to go through narrow passages (bottleneck regions). Current state of the art techniques train a learning model (learner) to predict samples selectively on these bottleneck regions. However, these algorithms depend completely on samples generated by this learner to navigate through the bottleneck regions. As the complexity of the planning problem increases, the amount of data and time required to make this learner robust to fine variations in the structure of the workspace becomes computationally intractable. In this work, we present (1) an efficient and robust method to use a learner to locate the bottleneck regions and (2) two algorithms that use local sampling methods to leverage the location of these bottleneck regions for efficient motion planning while maintaining probabilistic completeness.   We test our algorithms on 2 dimensional planning problems and 7 dimensional robotic arm planning, and report significant gains over heuristics as well as learned baselines.",
+    "published": "2020-06-07",
+    "updated": "2020-06-07",
+    "categories": [
+      "cs.RO"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2006.04194v1.pdf",
+    "arxiv_url": "https://arxiv.org/abs/2006.04194v1"
+  },
+  {
+    "arxiv_id": "2503.17309v1",
+    "title": "LLM+MAP: Bimanual Robot Task Planning using Large Language Models and Planning Domain Definition Language",
+    "authors": [
+      "Kun Chu",
+      "Xufeng Zhao",
+      "Cornelius Weber",
+      "Stefan Wermter"
+    ],
+    "abstract": "Bimanual robotic manipulation provides significant versatility, but also presents an inherent challenge due to the complexity involved in the spatial and temporal coordination between two hands. Existing works predominantly focus on attaining human-level manipulation skills for robotic hands, yet little attention has been paid to task planning on long-horizon timescales. With their outstanding in-context learning and zero-shot generation abilities, Large Language Models (LLMs) have been applied and grounded in diverse robotic embodiments to facilitate task planning. However, LLMs still suffer from errors in long-horizon reasoning and from hallucinations in complex robotic tasks, lacking a guarantee of logical correctness when generating the plan. Previous works, such as LLM+P, extended LLMs with symbolic planners. However, none have been successfully applied to bimanual robots. New challenges inevitably arise in bimanual manipulation, necessitating not only effective task decomposition but also efficient task allocation. To address these challenges, this paper introduces LLM+MAP, a bimanual planning framework that integrates LLM reasoning and multi-agent planning, automating effective and efficient bimanual task planning. We conduct simulated experiments on various long-horizon manipulation tasks of differing complexity. Our method is built using GPT-4o as the backend, and we compare its performance against plans generated directly by LLMs, including GPT-4o, V3 and also recent strong reasoning models o1 and R1. By analyzing metrics such as planning time, success rate, group debits, and planning-step reduction rate, we demonstrate the superior performance of LLM+MAP, while also providing insights into robotic reasoning. Code is available at https://github.com/Kchu/LLM-MAP.",
+    "published": "2025-03-21",
+    "updated": "2025-03-21",
+    "categories": [
+      "cs.RO",
+      "cs.AI"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2503.17309v1.pdf",
+    "arxiv_url": "https://arxiv.org/abs/2503.17309v1"
+  },
+  {
+    "arxiv_id": "2504.21716v1",
+    "title": "LLM-Empowered Embodied Agent for Memory-Augmented Task Planning in Household Robotics",
+    "authors": [
+      "Marc Glocker",
+      "Peter Hönig",
+      "Matthias Hirschmanner",
+      "Markus Vincze"
+    ],
+    "abstract": "We present an embodied robotic system with an LLM-driven agent-orchestration architecture for autonomous household object management. The system integrates memory-augmented task planning, enabling robots to execute high-level user commands while tracking past actions. It employs three specialized agents: a routing agent, a task planning agent, and a knowledge base agent, each powered by task-specific LLMs. By leveraging in-context learning, our system avoids the need for explicit model training. RAG enables the system to retrieve context from past interactions, enhancing long-term object tracking. A combination of Grounded SAM and LLaMa3.2-Vision provides robust object detection, facilitating semantic scene understanding for task planning. Evaluation across three household scenarios demonstrates high task planning accuracy and an improvement in memory recall due to RAG. Specifically, Qwen2.5 yields best performance for specialized agents, while LLaMA3.1 excels in routing tasks. The source code is available at: https://github.com/marc1198/chat-hsr.",
+    "published": "2025-04-30",
+    "updated": "2025-04-30",
+    "categories": [
+      "cs.RO",
+      "cs.AI",
+      "cs.CL"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2504.21716v1.pdf",
+    "arxiv_url": "https://arxiv.org/abs/2504.21716v1"
+  },
+  {
+    "arxiv_id": "2002.08124v3",
+    "title": "Act, Perceive, and Plan in Belief Space for Robot Localization",
+    "authors": [
+      "Michele Colledanchise",
+      "Damiano Malafronte",
+      "Lorenzo Natale"
+    ],
+    "abstract": "In this paper, we outline an interleaved acting and planning technique to rapidly reduce the uncertainty of the estimated robot's pose by perceiving relevant information from the environment, as recognizing an object or asking someone for a direction.   Generally, existing localization approaches rely on low-level geometric features such as points, lines, and planes, while these approaches provide the desired accuracy, they may require time to converge, especially with incorrect initial guesses. In our approach, a task planner computes a sequence of action and perception tasks to actively obtain relevant information from the robot's perception system. We validate our approach in large state spaces, to show how the approach scales, and in real environments, to show the applicability of our method on real robots.   We prove that our approach is sound, probabilistically complete, and tractable in practical cases.",
+    "published": "2020-02-19",
+    "updated": "2020-02-21",
+    "categories": [
+      "cs.RO"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2002.08124v3.pdf",
+    "arxiv_url": "https://arxiv.org/abs/2002.08124v3"
+  },
+  {
+    "arxiv_id": "2102.13212v1",
+    "title": "Motion Planning for a Pair of Tethered Robots",
+    "authors": [
+      "Reza H. Teshnizi",
+      "Dylan A. Shell"
+    ],
+    "abstract": "Considering an environment containing polygonal obstacles, we address the problem of planning motions for a pair of planar robots connected to one another via a cable of limited length. Much like prior problems with a single robot connected via a cable to a fixed base, straight line-of-sight visibility plays an important role. The present paper shows how the reduced visibility graph provides a natural discretization and captures the essential topological considerations very effectively for the two robot case as well. Unlike the single robot case, however, the bounded cable length introduces considerations around coordination (or equivalently, when viewed from the point of view of a centralized planner, relative timing) that complicates the matter. Indeed, the paper has to introduce a rather more involved formalization than prior single-robot work in order to establish the core theoretical result -- a theorem permitting the problem to be cast as one of finding paths rather than trajectories. Once affirmed, the planning problem reduces to a straightforward graph search with an elegant representation of the connecting cable, demanding only a few extra ancillary checks that ensure sufficiency of cable to guarantee feasibility of the solution. We describe our implementation of A${}^\\star$ search, and report experimental results. Lastly, we prescribe an optimal execution for the solutions provided by the algorithm.",
+    "published": "2021-02-25",
+    "updated": "2021-02-25",
+    "categories": [
+      "cs.RO",
+      "cs.AI"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2102.13212v1.pdf",
+    "arxiv_url": "https://arxiv.org/abs/2102.13212v1"
+  },
+  {
+    "arxiv_id": "2511.23143v1",
+    "title": "Automated Generation of MDPs Using Logic Programming and LLMs for Robotic Applications",
+    "authors": [
+      "Enrico Saccon",
+      "Davide De Martini",
+      "Matteo Saveriano",
+      "Edoardo Lamon",
+      "Luigi Palopoli",
+      "Marco Roveri"
+    ],
+    "abstract": "We present a novel framework that integrates Large Language Models (LLMs) with automated planning and formal verification to streamline the creation and use of Markov Decision Processes (MDP). Our system leverages LLMs to extract structured knowledge in the form of a Prolog knowledge base from natural language (NL) descriptions. It then automatically constructs an MDP through reachability analysis, and synthesises optimal policies using the Storm model checker. The resulting policy is exported as a state-action table for execution. We validate the framework in three human-robot interaction scenarios, demonstrating its ability to produce executable policies with minimal manual effort. This work highlights the potential of combining language models with formal methods to enable more accessible and scalable probabilistic planning in robotics.",
+    "published": "2025-11-28",
+    "updated": "2025-11-28",
+    "categories": [
+      "cs.RO",
+      "cs.AI"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2511.23143v1.pdf",
+    "arxiv_url": "https://arxiv.org/abs/2511.23143v1"
+  },
+  {
+    "arxiv_id": "2408.11339v1",
+    "title": "Deep Reinforcement Learning for Decentralized Multi-Robot Control: A DQN Approach to Robustness and Information Integration",
+    "authors": [
+      "Bin Wu",
+      "C Steve Suh"
+    ],
+    "abstract": "The superiority of Multi-Robot Systems (MRS) in various complex environments is unquestionable. However, in complex situations such as search and rescue, environmental monitoring, and automated production, robots are often required to work collaboratively without a central control unit. This necessitates an efficient and robust decentralized control mechanism to process local information and guide the robots' behavior. In this work, we propose a new decentralized controller design method that utilizes the Deep Q-Network (DQN) algorithm from deep reinforcement learning, aimed at improving the integration of local information and robustness of multi-robot systems. The designed controller allows each robot to make decisions independently based on its local observations while enhancing the overall system's collaborative efficiency and adaptability to dynamic environments through a shared learning mechanism. Through testing in simulated environments, we have demonstrated the effectiveness of this controller in improving task execution efficiency, strengthening system fault tolerance, and enhancing adaptability to the environment. Furthermore, we explored the impact of DQN parameter tuning on system performance, providing insights for further optimization of the controller design. Our research not only showcases the potential application of the DQN algorithm in the decentralized control of multi-robot systems but also offers a new perspective on how to enhance the overall performance and robustness of the system through the integration of local information.",
+    "published": "2024-08-21",
+    "updated": "2024-08-21",
+    "categories": [
+      "cs.RO",
+      "cs.MA"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2408.11339v1.pdf",
+    "arxiv_url": "https://arxiv.org/abs/2408.11339v1"
+  },
+  {
+    "arxiv_id": "2408.11822v1",
+    "title": "State-of-the-art in Robot Learning for Multi-Robot Collaboration: A Comprehensive Survey",
+    "authors": [
+      "Bin Wu",
+      "C Steve Suh"
+    ],
+    "abstract": "With the continuous breakthroughs in core technology, the dawn of large-scale integration of robotic systems into daily human life is on the horizon. Multi-robot systems (MRS) built on this foundation are undergoing drastic evolution. The fusion of artificial intelligence technology with robot hardware is seeing broad application possibilities for MRS. This article surveys the state-of-the-art of robot learning in the context of Multi-Robot Cooperation (MRC) of recent. Commonly adopted robot learning methods (or frameworks) that are inspired by humans and animals are reviewed and their advantages and disadvantages are discussed along with the associated technical challenges. The potential trends of robot learning and MRS integration exploiting the merging of these methods with real-world applications is also discussed at length. Specifically statistical methods are used to quantitatively corroborate the ideas elaborated in the article.",
+    "published": "2024-08-03",
+    "updated": "2024-08-03",
+    "categories": [
+      "cs.RO",
+      "cs.AI"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2408.11822v1.pdf",
+    "arxiv_url": "https://arxiv.org/abs/2408.11822v1"
+  },
+  {
+    "arxiv_id": "2409.18827v1",
+    "title": "ARLBench: Flexible and Efficient Benchmarking for Hyperparameter Optimization in Reinforcement Learning",
+    "authors": [
+      "Jannis Becktepe",
+      "Julian Dierkes",
+      "Carolin Benjamins",
+      "Aditya Mohan",
+      "David Salinas",
+      "Raghu Rajan",
+      "Frank Hutter",
+      "Holger Hoos",
+      "Marius Lindauer",
+      "Theresa Eimer"
+    ],
+    "abstract": "Hyperparameters are a critical factor in reliably training well-performing reinforcement learning (RL) agents. Unfortunately, developing and evaluating automated approaches for tuning such hyperparameters is both costly and time-consuming. As a result, such approaches are often only evaluated on a single domain or algorithm, making comparisons difficult and limiting insights into their generalizability. We propose ARLBench, a benchmark for hyperparameter optimization (HPO) in RL that allows comparisons of diverse HPO approaches while being highly efficient in evaluation. To enable research into HPO in RL, even in settings with low compute resources, we select a representative subset of HPO tasks spanning a variety of algorithm and environment combinations. This selection allows for generating a performance profile of an automated RL (AutoRL) method using only a fraction of the compute previously necessary, enabling a broader range of researchers to work on HPO in RL. With the extensive and large-scale dataset on hyperparameter landscapes that our selection is based on, ARLBench is an efficient, flexible, and future-oriented foundation for research on AutoRL. Both the benchmark and the dataset are available at https://github.com/automl/arlbench.",
+    "published": "2024-09-27",
+    "updated": "2024-09-27",
+    "categories": [
+      "cs.LG"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2409.18827v1.pdf",
+    "arxiv_url": "https://arxiv.org/abs/2409.18827v1"
+  },
+  {
+    "arxiv_id": "2311.11047v1",
+    "title": "CLIPSwarm: Converting text into formations of robots",
+    "authors": [
+      "Pablo Pueyo",
+      "Eduardo Montijano",
+      "Ana C. Murillo",
+      "Mac Schwager"
+    ],
+    "abstract": "We present CLIPSwarm, an algorithm to generate robot swarm formations from natural language descriptions. CLIPSwarm receives an input text and finds the position of the robots to form a shape that corresponds to the given text. To do so, we implement a variation of the Montecarlo particle filter to obtain a matching formation iteratively. In every iteration, we generate a set of new formations and evaluate their Clip Similarity with the given text, selecting the best formations according to this metric. This metric is obtained using Clip, [1], an existing foundation model trained to encode images and texts into vectors within a common latent space. The comparison between these vectors determines how likely the given text describes the shapes. Our initial proof of concept shows the potential of this solution to generate robot swarm formations just from natural language descriptions and demonstrates a novel application of foundation models, such as CLIP, in the field of multi-robot systems. In this first approach, we create formations using a Convex-Hull approach. Next steps include more robust and generic representation and optimization steps in the process of obtaining a suitable swarm formation.",
+    "published": "2023-11-18",
+    "updated": "2023-11-18",
+    "categories": [
+      "cs.RO"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2311.11047v1.pdf",
+    "arxiv_url": "https://arxiv.org/abs/2311.11047v1"
+  },
+  {
+    "arxiv_id": "2507.21638v1",
+    "title": "Assistax: A Hardware-Accelerated Reinforcement Learning Benchmark for Assistive Robotics",
+    "authors": [
+      "Leonard Hinckeldey",
+      "Elliot Fosong",
+      "Elle Miller",
+      "Rimvydas Rubavicius",
+      "Trevor McInroe",
+      "Patricia Wollstadt",
+      "Christiane B. Wiebel-Herboth",
+      "Subramanian Ramamoorthy",
+      "Stefano V. Albrecht"
+    ],
+    "abstract": "The development of reinforcement learning (RL) algorithms has been largely driven by ambitious challenge tasks and benchmarks. Games have dominated RL benchmarks because they present relevant challenges, are inexpensive to run and easy to understand. While games such as Go and Atari have led to many breakthroughs, they often do not directly translate to real-world embodied applications. In recognising the need to diversify RL benchmarks and addressing complexities that arise in embodied interaction scenarios, we introduce Assistax: an open-source benchmark designed to address challenges arising in assistive robotics tasks. Assistax uses JAX's hardware acceleration for significant speed-ups for learning in physics-based simulations. In terms of open-loop wall-clock time, Assistax runs up to $370\\times$ faster when vectorising training runs compared to CPU-based alternatives. Assistax conceptualises the interaction between an assistive robot and an active human patient using multi-agent RL to train a population of diverse partner agents against which an embodied robotic agent's zero-shot coordination capabilities can be tested. Extensive evaluation and hyperparameter tuning for popular continuous control RL and MARL algorithms provide reliable baselines and establish Assistax as a practical benchmark for advancing RL research for assistive robotics. The code is available at: https://github.com/assistive-autonomy/assistax.",
+    "published": "2025-07-29",
+    "updated": "2025-07-29",
+    "categories": [
+      "cs.AI",
+      "cs.LG",
+      "cs.RO"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2507.21638v1.pdf",
+    "arxiv_url": "https://arxiv.org/abs/2507.21638v1"
+  },
+  {
+    "arxiv_id": "2507.02910v1",
+    "title": "Causal-Paced Deep Reinforcement Learning",
+    "authors": [
+      "Geonwoo Cho",
+      "Jaegyun Im",
+      "Doyoon Kim",
+      "Sundong Kim"
+    ],
+    "abstract": "Designing effective task sequences is crucial for curriculum reinforcement learning (CRL), where agents must gradually acquire skills by training on intermediate tasks. A key challenge in CRL is to identify tasks that promote exploration, yet are similar enough to support effective transfer. While recent approach suggests comparing tasks via their Structural Causal Models (SCMs), the method requires access to ground-truth causal structures, an unrealistic assumption in most RL settings. In this work, we propose Causal-Paced Deep Reinforcement Learning (CP-DRL), a curriculum learning framework aware of SCM differences between tasks based on interaction data approximation. This signal captures task novelty, which we combine with the agent's learnability, measured by reward gain, to form a unified objective. Empirically, CP-DRL outperforms existing curriculum methods on the Point Mass benchmark, achieving faster convergence and higher returns. CP-DRL demonstrates reduced variance with comparable final returns in the Bipedal Walker-Trivial setting, and achieves the highest average performance in the Infeasible variant. These results indicate that leveraging causal relationships between tasks can improve the structure-awareness and sample efficiency of curriculum reinforcement learning. We provide the full implementation of CP-DRL to facilitate the reproduction of our main results at https://github.com/Cho-Geonwoo/CP-DRL.",
+    "published": "2025-06-24",
+    "updated": "2025-06-24",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "stat.ML"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2507.02910v1.pdf",
+    "arxiv_url": "https://arxiv.org/abs/2507.02910v1"
+  },
+  {
+    "arxiv_id": "2510.22740v1",
+    "title": "Policies over Poses: Reinforcement Learning based Distributed Pose-Graph Optimization for Multi-Robot SLAM",
+    "authors": [
+      "Sai Krishna Ghanta",
+      "Ramviyas Parasuraman"
+    ],
+    "abstract": "We consider the distributed pose-graph optimization (PGO) problem, which is fundamental in accurate trajectory estimation in multi-robot simultaneous localization and mapping (SLAM). Conventional iterative approaches linearize a highly non-convex optimization objective, requiring repeated solving of normal equations, which often converge to local minima and thus produce suboptimal estimates. We propose a scalable, outlier-robust distributed planar PGO framework using Multi-Agent Reinforcement Learning (MARL). We cast distributed PGO as a partially observable Markov game defined on local pose-graphs, where each action refines a single edge's pose estimate. A graph partitioner decomposes the global pose graph, and each robot runs a recurrent edge-conditioned Graph Neural Network (GNN) encoder with adaptive edge-gating to denoise noisy edges. Robots sequentially refine poses through a hybrid policy that utilizes prior action memory and graph embeddings. After local graph correction, a consensus scheme reconciles inter-robot disagreements to produce a globally consistent estimate. Our extensive evaluations on a comprehensive suite of synthetic and real-world datasets demonstrate that our learned MARL-based actors reduce the global objective by an average of 37.5% more than the state-of-the-art distributed PGO framework, while enhancing inference efficiency by at least 6X. We also demonstrate that actor replication allows a single learned policy to scale effortlessly to substantially larger robot teams without any retraining. Code is publicly available at https://github.com/herolab-uga/policies-over-poses.",
+    "published": "2025-10-26",
+    "updated": "2025-10-26",
+    "categories": [
+      "cs.RO",
+      "cs.AI",
+      "cs.MA"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2510.22740v1.pdf",
+    "arxiv_url": "https://arxiv.org/abs/2510.22740v1"
+  },
+  {
+    "arxiv_id": "2301.08028v4",
+    "title": "A Tutorial on Meta-Reinforcement Learning",
+    "authors": [
+      "Jacob Beck",
+      "Risto Vuorio",
+      "Evan Zheran Liu",
+      "Zheng Xiong",
+      "Luisa Zintgraf",
+      "Chelsea Finn",
+      "Shimon Whiteson"
+    ],
+    "abstract": "While deep reinforcement learning (RL) has fueled multiple high-profile successes in machine learning, it is held back from more widespread adoption by its often poor data efficiency and the limited generality of the policies it produces. A promising approach for alleviating these limitations is to cast the development of better RL algorithms as a machine learning problem itself in a process called meta-RL. Meta-RL is most commonly studied in a problem setting where, given a distribution of tasks, the goal is to learn a policy that is capable of adapting to any new task from the task distribution with as little data as possible. In this survey, we describe the meta-RL problem setting in detail as well as its major variations. We discuss how, at a high level, meta-RL research can be clustered based on the presence of a task distribution and the learning budget available for each individual task. Using these clusters, we then survey meta-RL algorithms and applications. We conclude by presenting the open problems on the path to making meta-RL part of the standard toolbox for a deep RL practitioner.",
+    "published": "2023-01-19",
+    "updated": "2025-05-29",
+    "categories": [
+      "cs.LG"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2301.08028v4.pdf",
+    "arxiv_url": "https://arxiv.org/abs/2301.08028v4"
+  },
+  {
+    "arxiv_id": "2406.04896v2",
+    "title": "Stabilizing Extreme Q-learning by Maclaurin Expansion",
+    "authors": [
+      "Motoki Omura",
+      "Takayuki Osa",
+      "Yusuke Mukuta",
+      "Tatsuya Harada"
+    ],
+    "abstract": "In offline reinforcement learning, in-sample learning methods have been widely used to prevent performance degradation caused by evaluating out-of-distribution actions from the dataset. Extreme Q-learning (XQL) employs a loss function based on the assumption that Bellman error follows a Gumbel distribution, enabling it to model the soft optimal value function in an in-sample manner. It has demonstrated strong performance in both offline and online reinforcement learning settings. However, issues remain, such as the instability caused by the exponential term in the loss function and the risk of the error distribution deviating from the Gumbel distribution. Therefore, we propose Maclaurin Expanded Extreme Q-learning to enhance stability. In this method, applying Maclaurin expansion to the loss function in XQL enhances stability against large errors. This approach involves adjusting the modeled value function between the value function under the behavior policy and the soft optimal value function, thus achieving a trade-off between stability and optimality depending on the order of expansion. It also enables adjustment of the error distribution assumption from a normal distribution to a Gumbel distribution. Our method significantly stabilizes learning in online RL tasks from DM Control, where XQL was previously unstable. Additionally, it improves performance in several offline RL tasks from D4RL.",
+    "published": "2024-06-07",
+    "updated": "2024-09-02",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2406.04896v2.pdf",
+    "arxiv_url": "https://arxiv.org/abs/2406.04896v2"
+  },
+  {
+    "arxiv_id": "2008.07875v1",
+    "title": "Towards Closing the Sim-to-Real Gap in Collaborative Multi-Robot Deep Reinforcement Learning",
+    "authors": [
+      "Wenshuai Zhao",
+      "Jorge Peña Queralta",
+      "Li Qingqing",
+      "Tomi Westerlund"
+    ],
+    "abstract": "Current research directions in deep reinforcement learning include bridging the simulation-reality gap, improving sample efficiency of experiences in distributed multi-agent reinforcement learning, together with the development of robust methods against adversarial agents in distributed learning, among many others. In this work, we are particularly interested in analyzing how multi-agent reinforcement learning can bridge the gap to reality in distributed multi-robot systems where the operation of the different robots is not necessarily homogeneous. These variations can happen due to sensing mismatches, inherent errors in terms of calibration of the mechanical joints, or simple differences in accuracy. While our results are simulation-based, we introduce the effect of sensing, calibration, and accuracy mismatches in distributed reinforcement learning with proximal policy optimization (PPO). We discuss on how both the different types of perturbances and how the number of agents experiencing those perturbances affect the collaborative learning effort. The simulations are carried out using a Kuka arm model in the Bullet physics engine. This is, to the best of our knowledge, the first work exploring the limitations of PPO in multi-robot systems when considering that different robots might be exposed to different environments where their sensors or actuators have induced errors. With the conclusions of this work, we set the initial point for future work on designing and developing methods to achieve robust reinforcement learning on the presence of real-world perturbances that might differ within a multi-robot system.",
+    "published": "2020-08-18",
+    "updated": "2020-08-18",
+    "categories": [
+      "cs.LG",
+      "cs.DC",
+      "stat.ML"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2008.07875v1.pdf",
+    "arxiv_url": "https://arxiv.org/abs/2008.07875v1"
+  },
+  {
+    "arxiv_id": "2512.04463v2",
+    "title": "MARL Warehouse Robots",
+    "authors": [
+      "Price Allman",
+      "Lian Thang",
+      "Dre Simmons",
+      "Salmon Riaz"
+    ],
+    "abstract": "We present a comparative study of multi-agent reinforcement learning (MARL) algorithms for cooperative warehouse robotics. We evaluate QMIX and IPPO on the Robotic Warehouse (RWARE) environment and a custom Unity 3D simulation. Our experiments reveal that QMIX's value decomposition significantly outperforms independent learning approaches (achieving 3.25 mean return vs. 0.38 for advanced IPPO), but requires extensive hyperparameter tuning -- particularly extended epsilon annealing (5M+ steps) for sparse reward discovery. We demonstrate successful deployment in Unity ML-Agents, achieving consistent package delivery after 1M training steps. While MARL shows promise for small-scale deployments (2-4 robots), significant scaling challenges remain. Code and analyses: https://pallman14.github.io/MARL-QMIX-Warehouse-Robots/",
+    "published": "2025-12-04",
+    "updated": "2025-12-09",
+    "categories": [
+      "cs.AI",
+      "cs.RO"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2512.04463v2.pdf",
+    "arxiv_url": "https://arxiv.org/abs/2512.04463v2"
+  },
+  {
+    "arxiv_id": "2410.08408v1",
+    "title": "CE-MRS: Contrastive Explanations for Multi-Robot Systems",
+    "authors": [
+      "Ethan Schneider",
+      "Daniel Wu",
+      "Devleena Das",
+      "Sonia Chernova"
+    ],
+    "abstract": "As the complexity of multi-robot systems grows to incorporate a greater number of robots, more complex tasks, and longer time horizons, the solutions to such problems often become too complex to be fully intelligible to human users. In this work, we introduce an approach for generating natural language explanations that justify the validity of the system's solution to the user, or else aid the user in correcting any errors that led to a suboptimal system solution. Toward this goal, we first contribute a generalizable formalism of contrastive explanations for multi-robot systems, and then introduce a holistic approach to generating contrastive explanations for multi-robot scenarios that selectively incorporates data from multi-robot task allocation, scheduling, and motion-planning to explain system behavior. Through user studies with human operators we demonstrate that our integrated contrastive explanation approach leads to significant improvements in user ability to identify and solve system errors, leading to significant improvements in overall multi-robot team performance.",
+    "published": "2024-10-10",
+    "updated": "2024-10-10",
+    "categories": [
+      "cs.RO",
+      "cs.HC",
+      "cs.MA"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2410.08408v1.pdf",
+    "arxiv_url": "https://arxiv.org/abs/2410.08408v1"
+  },
+  {
+    "arxiv_id": "2210.05894v3",
+    "title": "Human-Aware Physical Human-Robot Collaborative Transportation and Manipulation with Multiple Aerial Robots",
+    "authors": [
+      "Guanrui Li",
+      "Xinyang Liu",
+      "Giuseppe Loianno"
+    ],
+    "abstract": "Human-robot interaction will play an essential role in various industries and daily tasks, enabling robots to effectively collaborate with humans and reduce their physical workload. Most of the existing approaches for physical human-robot interaction focus on collaboration between a human and a single ground or aerial robot. In recent years, very little progress has been made in this research area when considering multiple aerial robots, which offer increased versatility and mobility. This paper proposes a novel approach for physical human-robot collaborative transportation and manipulation of a cable-suspended payload with multiple aerial robots. The proposed method enables smooth and intuitive interaction between the transported objects and a human worker. In the same time, we consider distance constraints during the operations by exploiting the internal redundancy of the multi-robot transportation system. The key elements of our approach are (a) a collaborative payload external wrench estimator that does not rely on any force sensor; (b) a 6D admittance controller for human-aerial-robot collaborative transportation and manipulation; (c) a human-aware force distribution that exploits the internal system redundancy to guarantee the execution of additional tasks such inter-human-robot separation without affecting the payload trajectory tracking or quality of interaction. We validate the approach through extensive simulation and real-world experiments. These include scenarios where the robot team assists the human in transporting and manipulating a load, or where the human helps the robot team navigate the environment. We experimentally demonstrate for the first time, to the best of our knowledge, that our approach enables a quadrotor team to physically collaborate with a human in manipulating a payload in all 6 DoF in collaborative human-robot transportation and manipulation tasks.",
+    "published": "2022-10-12",
+    "updated": "2024-12-03",
+    "categories": [
+      "cs.RO"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2210.05894v3.pdf",
+    "arxiv_url": "https://arxiv.org/abs/2210.05894v3"
+  }
+]

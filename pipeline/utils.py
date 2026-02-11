@@ -28,6 +28,7 @@ class UploadedFiles:
 
     def __enter__(self):
         for path in self.paths:
+            # todo:在这边被拒绝了
             uploaded_file = genai.upload_file(path=path)
             self.uploaded_files.append(uploaded_file)
 

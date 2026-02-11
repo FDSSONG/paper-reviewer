@@ -1,0 +1,424 @@
+[
+  {
+    "arxiv_id": "2602.06967v1",
+    "title": "Leveraging Adaptive Group Negotiation for Heterogeneous Multi-Robot Collaboration with Large Language Models",
+    "score": 1.0,
+    "published": "2025-12-29",
+    "authors": [
+      "Siqi Song",
+      "Xuanbing Xie",
+      "Zonglin Li"
+    ]
+  },
+  {
+    "arxiv_id": "2406.14097v2",
+    "title": "Enhancing the LLM-Based Robot Manipulation Through Human-Robot Collaboration",
+    "score": 0.8820602297782898,
+    "published": "2024-06-20",
+    "authors": [
+      "Haokun Liu",
+      "Yaonan Zhu",
+      "Kenji Kato"
+    ]
+  },
+  {
+    "arxiv_id": "2503.17309v1",
+    "title": "LLM+MAP: Bimanual Robot Task Planning using Large Language Models and Planning Domain Definition Language",
+    "score": 0.8800837993621826,
+    "published": "2025-03-21",
+    "authors": [
+      "Kun Chu",
+      "Xufeng Zhao",
+      "Cornelius Weber"
+    ]
+  },
+  {
+    "arxiv_id": "2410.08408v1",
+    "title": "CE-MRS: Contrastive Explanations for Multi-Robot Systems",
+    "score": 0.8726851344108582,
+    "published": "2024-10-10",
+    "authors": [
+      "Ethan Schneider",
+      "Daniel Wu",
+      "Devleena Das"
+    ]
+  },
+  {
+    "arxiv_id": "2509.05397v1",
+    "title": "RoboBallet: Planning for Multi-Robot Reaching with Graph Neural Networks and Reinforcement Learning",
+    "score": 0.8722468018531799,
+    "published": "2025-09-05",
+    "authors": [
+      "Matthew Lai",
+      "Keegan Go",
+      "Zhibin Li"
+    ]
+  },
+  {
+    "arxiv_id": "2210.05894v3",
+    "title": "Human-Aware Physical Human-Robot Collaborative Transportation and Manipulation with Multiple Aerial Robots",
+    "score": 0.8657923936843872,
+    "published": "2022-10-12",
+    "authors": [
+      "Guanrui Li",
+      "Xinyang Liu",
+      "Giuseppe Loianno"
+    ]
+  },
+  {
+    "arxiv_id": "2311.11183v3",
+    "title": "Deploying and Evaluating LLMs to Program Service Mobile Robots",
+    "score": 0.8648812174797058,
+    "published": "2023-11-18",
+    "authors": [
+      "Zichao Hu",
+      "Francesca Lucchetti",
+      "Claire Schlesinger"
+    ]
+  },
+  {
+    "arxiv_id": "2006.08845v1",
+    "title": "Optimal Sequential Task Assignment and Path Finding for Multi-Agent Robotic Assembly Planning",
+    "score": 0.8489832282066345,
+    "published": "2020-06-16",
+    "authors": [
+      "Kyle Brown",
+      "Oriana Peltzer",
+      "Martin A. Sehr"
+    ]
+  },
+  {
+    "arxiv_id": "2511.08732v1",
+    "title": "Intuitive Programming, Adaptive Task Planning, and Dynamic Role Allocation in Human-Robot Collaboration",
+    "score": 0.8477076292037964,
+    "published": "2025-11-11",
+    "authors": [
+      "Marta Lagomarsino",
+      "Elena Merlo",
+      "Andrea Pupa"
+    ]
+  },
+  {
+    "arxiv_id": "2201.12900v2",
+    "title": "Learning Optimal Topology for Ad-hoc Robot Networks",
+    "score": 0.8438230752944946,
+    "published": "2022-01-30",
+    "authors": [
+      "Matin Macktoobian",
+      "Zhan Shu",
+      "Qing Zhao"
+    ]
+  },
+  {
+    "arxiv_id": "2408.11822v1",
+    "title": "State-of-the-art in Robot Learning for Multi-Robot Collaboration: A Comprehensive Survey",
+    "score": 0.8432322144508362,
+    "published": "2024-08-03",
+    "authors": [
+      "Bin Wu",
+      "C Steve Suh"
+    ]
+  },
+  {
+    "arxiv_id": "2112.01942v3",
+    "title": "A Survey of Robot Manipulation in Contact",
+    "score": 0.8389127850532532,
+    "published": "2021-12-03",
+    "authors": [
+      "Markku Suomalainen",
+      "Yiannis Karayiannidis",
+      "Ville Kyrki"
+    ]
+  },
+  {
+    "arxiv_id": "2406.17333v1",
+    "title": "Task Adaptation in Industrial Human-Robot Interaction: Leveraging Riemannian Motion Policies",
+    "score": 0.8367902040481567,
+    "published": "2024-06-25",
+    "authors": [
+      "Mike Allenspach",
+      "Michael Pantic",
+      "Rik Girod"
+    ]
+  },
+  {
+    "arxiv_id": "2311.11047v1",
+    "title": "CLIPSwarm: Converting text into formations of robots",
+    "score": 0.8325617909431458,
+    "published": "2023-11-18",
+    "authors": [
+      "Pablo Pueyo",
+      "Eduardo Montijano",
+      "Ana C. Murillo"
+    ]
+  },
+  {
+    "arxiv_id": "2010.16106v3",
+    "title": "MAPS-X: Explainable Multi-Robot Motion Planning via Segmentation",
+    "score": 0.8286346197128296,
+    "published": "2020-10-30",
+    "authors": [
+      "Justin Kottinger",
+      "Shaull Almagor",
+      "Morteza Lahijanian"
+    ]
+  },
+  {
+    "arxiv_id": "2511.23143v1",
+    "title": "Automated Generation of MDPs Using Logic Programming and LLMs for Robotic Applications",
+    "score": 0.8277368545532227,
+    "published": "2025-11-28",
+    "authors": [
+      "Enrico Saccon",
+      "Davide De Martini",
+      "Matteo Saveriano"
+    ]
+  },
+  {
+    "arxiv_id": "2407.18009v1",
+    "title": "Egocentric Robots in a Human-Centric World? Exploring Group-Robot-Interaction in Public Spaces",
+    "score": 0.8263311386108398,
+    "published": "2024-07-25",
+    "authors": [
+      "Ana Müller",
+      "Anja Richert"
+    ]
+  },
+  {
+    "arxiv_id": "2006.04194v1",
+    "title": "Robotic Motion Planning using Learned Critical Sources and Local Sampling",
+    "score": 0.8246257305145264,
+    "published": "2020-06-07",
+    "authors": [
+      "Rajat Kumar Jenamani",
+      "Rahul Kumar",
+      "Parth Mall"
+    ]
+  },
+  {
+    "arxiv_id": "2109.07120v3",
+    "title": "Infusing model predictive control into meta-reinforcement learning for mobile robots in dynamic environments",
+    "score": 0.8216319680213928,
+    "published": "2021-09-15",
+    "authors": [
+      "Jaeuk Shin",
+      "Astghik Hakobyan",
+      "Mingyu Park"
+    ]
+  },
+  {
+    "arxiv_id": "2102.13212v1",
+    "title": "Motion Planning for a Pair of Tethered Robots",
+    "score": 0.8199341297149658,
+    "published": "2021-02-25",
+    "authors": [
+      "Reza H. Teshnizi",
+      "Dylan A. Shell"
+    ]
+  },
+  {
+    "arxiv_id": "2504.21716v1",
+    "title": "LLM-Empowered Embodied Agent for Memory-Augmented Task Planning in Household Robotics",
+    "score": 0.8148150444030762,
+    "published": "2025-04-30",
+    "authors": [
+      "Marc Glocker",
+      "Peter Hönig",
+      "Matthias Hirschmanner"
+    ]
+  },
+  {
+    "arxiv_id": "2408.11339v1",
+    "title": "Deep Reinforcement Learning for Decentralized Multi-Robot Control: A DQN Approach to Robustness and Information Integration",
+    "score": 0.814799964427948,
+    "published": "2024-08-21",
+    "authors": [
+      "Bin Wu",
+      "C Steve Suh"
+    ]
+  },
+  {
+    "arxiv_id": "2002.08124v3",
+    "title": "Act, Perceive, and Plan in Belief Space for Robot Localization",
+    "score": 0.8131661415100098,
+    "published": "2020-02-19",
+    "authors": [
+      "Michele Colledanchise",
+      "Damiano Malafronte",
+      "Lorenzo Natale"
+    ]
+  },
+  {
+    "arxiv_id": "2512.04463v2",
+    "title": "MARL Warehouse Robots",
+    "score": 0.8072022199630737,
+    "published": "2025-12-04",
+    "authors": [
+      "Price Allman",
+      "Lian Thang",
+      "Dre Simmons"
+    ]
+  },
+  {
+    "arxiv_id": "2510.22740v1",
+    "title": "Policies over Poses: Reinforcement Learning based Distributed Pose-Graph Optimization for Multi-Robot SLAM",
+    "score": 0.801157534122467,
+    "published": "2025-10-26",
+    "authors": [
+      "Sai Krishna Ghanta",
+      "Ramviyas Parasuraman"
+    ]
+  },
+  {
+    "arxiv_id": "2302.14334v2",
+    "title": "Design of an Adaptive Lightweight LiDAR to Decouple Robot-Camera Geometry",
+    "score": 0.7976436614990234,
+    "published": "2023-02-28",
+    "authors": [
+      "Yuyang Chen",
+      "Dingkang Wang",
+      "Lenworth Thomas"
+    ]
+  },
+  {
+    "arxiv_id": "2402.07021v1",
+    "title": "Bayesian Optimization with Adaptive Kernels for Robot Control",
+    "score": 0.7968177199363708,
+    "published": "2024-02-10",
+    "authors": [
+      "Ruben Martinez-Cantin"
+    ]
+  },
+  {
+    "arxiv_id": "2502.04012v1",
+    "title": "Malleable Robots",
+    "score": 0.790981650352478,
+    "published": "2025-02-06",
+    "authors": [
+      "Angus B. Clark",
+      "Xinran Wang",
+      "Alex Ranne"
+    ]
+  },
+  {
+    "arxiv_id": "2408.00151v1",
+    "title": "Moderating Group Conversation Dynamics with Social Robots",
+    "score": 0.7896156907081604,
+    "published": "2024-07-31",
+    "authors": [
+      "Lucrezia Grassi",
+      "Carmine Tommaso Recchiuto",
+      "Antonio Sgorbissa"
+    ]
+  },
+  {
+    "arxiv_id": "2301.08028v4",
+    "title": "A Tutorial on Meta-Reinforcement Learning",
+    "score": 0.7887430787086487,
+    "published": "2023-01-19",
+    "authors": [
+      "Jacob Beck",
+      "Risto Vuorio",
+      "Evan Zheran Liu"
+    ]
+  },
+  {
+    "arxiv_id": "2212.01246v1",
+    "title": "ViTAL: Vision-Based Terrain-Aware Locomotion for Legged Robots",
+    "score": 0.7867828607559204,
+    "published": "2022-12-02",
+    "authors": [
+      "Shamel Fahmi",
+      "Victor Barasuol",
+      "Domingo Esteban"
+    ]
+  },
+  {
+    "arxiv_id": "2008.07875v1",
+    "title": "Towards Closing the Sim-to-Real Gap in Collaborative Multi-Robot Deep Reinforcement Learning",
+    "score": 0.7809485793113708,
+    "published": "2020-08-18",
+    "authors": [
+      "Wenshuai Zhao",
+      "Jorge Peña Queralta",
+      "Li Qingqing"
+    ]
+  },
+  {
+    "arxiv_id": "2406.04896v2",
+    "title": "Stabilizing Extreme Q-learning by Maclaurin Expansion",
+    "score": 0.7791136503219604,
+    "published": "2024-06-07",
+    "authors": [
+      "Motoki Omura",
+      "Takayuki Osa",
+      "Yusuke Mukuta"
+    ]
+  },
+  {
+    "arxiv_id": "2507.21638v1",
+    "title": "Assistax: A Hardware-Accelerated Reinforcement Learning Benchmark for Assistive Robotics",
+    "score": 0.7742484211921692,
+    "published": "2025-07-29",
+    "authors": [
+      "Leonard Hinckeldey",
+      "Elliot Fosong",
+      "Elle Miller"
+    ]
+  },
+  {
+    "arxiv_id": "2507.02910v1",
+    "title": "Causal-Paced Deep Reinforcement Learning",
+    "score": 0.7660813331604004,
+    "published": "2025-06-24",
+    "authors": [
+      "Geonwoo Cho",
+      "Jaegyun Im",
+      "Doyoon Kim"
+    ]
+  },
+  {
+    "arxiv_id": "2307.10838v2",
+    "title": "A Hybrid Adaptive Controller for Soft Robot Interchangeability",
+    "score": 0.760751485824585,
+    "published": "2023-07-20",
+    "authors": [
+      "Zixi Chen",
+      "Xuyang Ren",
+      "Matteo Bernabei"
+    ]
+  },
+  {
+    "arxiv_id": "2409.18827v1",
+    "title": "ARLBench: Flexible and Efficient Benchmarking for Hyperparameter Optimization in Reinforcement Learning",
+    "score": 0.7399565577507019,
+    "published": "2024-09-27",
+    "authors": [
+      "Jannis Becktepe",
+      "Julian Dierkes",
+      "Carolin Benjamins"
+    ]
+  },
+  {
+    "arxiv_id": "2111.00944v2",
+    "title": "Piezoelectric Soft Robot Inchworm Motion by Tuning Ground Friction through Robot Shape: Quasi-Static Modeling and Experimental Validation",
+    "score": 0.7078642845153809,
+    "published": "2021-11-01",
+    "authors": [
+      "Zhiwu Zheng",
+      "Prakhar Kumar",
+      "Yenan Chen"
+    ]
+  },
+  {
+    "arxiv_id": "2306.07035v1",
+    "title": "Stochastic Approach for Modeling a Soft Robotic Finger with Creep Behavior",
+    "score": 0.6960432529449463,
+    "published": "2023-06-12",
+    "authors": [
+      "Sumitaka Honji",
+      "Hikaru Arita",
+      "Kenji Tahara"
+    ]
+  }
+]

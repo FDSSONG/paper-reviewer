@@ -1,8 +1,15 @@
 import json
 from string import Template
 
+# 配置 API（支持中转站）
+import sys
+import os
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+import config_api
+
 import google.generativeai as genai
 from google.ai.generativelanguage_v1beta.types import content
+
 
 from pipeline.utils import prompts
 from configs.gemini_configs import extract_category_config

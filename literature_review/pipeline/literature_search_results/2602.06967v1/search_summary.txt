@@ -1,0 +1,76 @@
+======================================================================
+文献检索摘要报告
+======================================================================
+
+论文 ID: 2602.06967v1
+检索时间: 2026-02-11 11:08:50
+查询数量: 7
+起始年份: 2020
+找到论文: 39 篇
+
+======================================================================
+搜索查询列表
+======================================================================
+
+1. heterogeneous multi-robot collaboration planning
+2. LLM multi-robot coordination
+3. adaptive group negotiation robotics
+4. LLM subgroup planning robotics
+5. multi-robot assembly benchmark
+6. reinforcement learning multi-robot collaboration
+7. LLM warehouse robotics
+
+======================================================================
+前 10 篇相关论文
+======================================================================
+
+1. A Hybrid Adaptive Controller for Soft Robot Interchangeability
+   作者: Zixi Chen, Xuyang Ren, Matteo Bernabei
+   年份: 2023
+   链接: https://arxiv.org/pdf/2307.10838v2.pdf
+
+2. Task Adaptation in Industrial Human-Robot Interaction: Leveraging Riemannian Motion Policies
+   作者: Mike Allenspach, Michael Pantic, Rik Girod
+   年份: 2024
+   链接: https://arxiv.org/pdf/2406.17333v1.pdf
+
+3. Design of an Adaptive Lightweight LiDAR to Decouple Robot-Camera Geometry
+   作者: Yuyang Chen, Dingkang Wang, Lenworth Thomas
+   年份: 2023
+   链接: https://arxiv.org/pdf/2302.14334v2.pdf
+
+4. Malleable Robots
+   作者: Angus B. Clark, Xinran Wang, Alex Ranne
+   年份: 2025
+   链接: https://arxiv.org/pdf/2502.04012v1.pdf
+
+5. Bayesian Optimization with Adaptive Kernels for Robot Control
+   作者: Ruben Martinez-Cantin
+   年份: 2024
+   链接: https://arxiv.org/pdf/2402.07021v1.pdf
+
+6. Intuitive Programming, Adaptive Task Planning, and Dynamic Role Allocation in Human-Robot Collaboration
+   作者: Marta Lagomarsino, Elena Merlo, Andrea Pupa
+   年份: 2025
+   链接: https://arxiv.org/pdf/2511.08732v1.pdf
+
+7. ViTAL: Vision-Based Terrain-Aware Locomotion for Legged Robots
+   作者: Shamel Fahmi, Victor Barasuol, Domingo Esteban
+   年份: 2022
+   链接: https://arxiv.org/pdf/2212.01246v1.pdf
+
+8. Stochastic Approach for Modeling a Soft Robotic Finger with Creep Behavior
+   作者: Sumitaka Honji, Hikaru Arita, Kenji Tahara
+   年份: 2023
+   链接: https://arxiv.org/pdf/2306.07035v1.pdf
+
+9. Infusing model predictive control into meta-reinforcement learning for mobile robots in dynamic environments
+   作者: Jaeuk Shin, Astghik Hakobyan, Mingyu Park
+   年份: 2021
+   链接: https://arxiv.org/pdf/2109.07120v3.pdf
+
+10. Leveraging Adaptive Group Negotiation for Heterogeneous Multi-Robot Collaboration with Large Language Models
+   作者: Siqi Song, Xuanbing Xie, Zonglin Li
+   年份: 2025
+   链接: https://arxiv.org/pdf/2602.06967v1.pdf
+

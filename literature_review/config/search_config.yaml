@@ -1,0 +1,30 @@
+# 学术搜索引擎配置文件
+SEARCH_ENGINE:
+  # 当前选择的搜索引擎: arxiv, semantic_scholar, crossref, multi
+  selected: "arxiv"
+
+  # 多引擎模式配置
+  multi_engine:
+    enabled: false
+    engines: ["arxiv"]
+    merge_strategy: "union"  # union(合并) 或 intersection(交集)
+
+  # arXiv 配置
+  arxiv:
+    max_retries: 3
+    delay: 5  # 请求间隔（秒）
+    timeout: 30  # 超时时间（秒）
+
+  # Semantic Scholar 配置
+  semantic_scholar:
+    api_key: ""  # 可选，有 API key 可提高速率限制
+    max_retries: 3
+    delay: 2
+    timeout: 30
+
+  # CrossRef 配置
+  crossref:
+    email: ""  # 可选，提供邮箱可获得更好的服务（礼貌池）
+    max_retries: 3
+    delay: 1
+    timeout: 30

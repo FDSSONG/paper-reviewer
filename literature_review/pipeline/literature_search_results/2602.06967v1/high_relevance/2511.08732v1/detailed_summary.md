@@ -1,0 +1,11 @@
+---
+标题: Intuitive Programming, Adaptive Task Planning, and Dynamic Role Allocation in Human-Robot Collaboration
+作者: Marta Lagomarsino, Elena Merlo, Andrea Pupa, Timo Birr, Franziska Krebs
+发布日期: 2025-11-11
+arXiv ID: 2511.08732v1
+PDF: https://arxiv.org/pdf/2511.08732v1.pdf
+---
+
+# 对比摘要
+
+Remarkable capabilities have been achieved by robotics and AI, mastering complex tasks and environments. Yet, humans often remain passive observers, fascinated but uncertain how to engage. Robots, in turn, cannot reach their full potential in human-populated environments without effectively modeling human states and intentions and adapting their behavior. To achieve a synergistic human-robot collaboration (HRC), a continuous information flow should be established: humans must intuitively communicate instructions, share expertise, and express needs. In parallel, robots must clearly convey their internal state and forthcoming actions to keep users informed, comfortable, and in control. This review identifies and connects key components enabling intuitive information exchange and skill transfer between humans and robots. We examine the full interaction pipeline: from the human-to-robot communication bridge translating multimodal inputs into robot-understandable representations, through adaptive planning and role allocation, to the control layer and feedback mechanisms to close the loop. Finally, we highlight trends and promising directions toward more adaptive, accessible HRC.

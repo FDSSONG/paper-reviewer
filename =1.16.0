@@ -1,0 +1,64 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting toml
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/44/6f/7120676b6d73228c96e17f1f794d8ab046fc910d781c8d151120c3f1569e/toml-0.10.2-py2.py3-none-any.whl (16 kB)
+Collecting tqdm
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/16/e1/3079a9ff9b8e11b846c6ac5c8b5bfb7ff225eee721825310c91b3b50304f/tqdm-4.67.3-py3-none-any.whl (78 kB)
+Collecting pydub
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/a6/53/d78dc063216e62fc55f6b2eebb447f6a4b0a59f55c8406376f76bf959b08/pydub-0.25.1-py2.py3-none-any.whl (32 kB)
+Collecting jinja2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/62/a1/3d680cbfd5f4b8f15abc1d571870c5fc3e594bb582bc3b64ea099db13e56/jinja2-3.1.6-py3-none-any.whl (134 kB)
+Collecting pillow
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/dc/7c/60e3e6f5e5891a1a06b4c910f742ac862377a6fe842f7184df4a274ce7bf/pillow-12.1.0-cp310-cp310-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (7.0 MB)
+Collecting requests
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/1e/db/4254e3eabe8020b458f1a747140d32277ec7a271daf1d235b70dc0b4e6e3/requests-2.32.5-py3-none-any.whl (64 kB)
+Collecting boto3==1.35.99
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/65/77/8bbca82f70b062181cf0ae53fd43f1ac6556f3078884bfef9da2269c06a3/boto3-1.35.99-py3-none-any.whl (139 kB)
+Collecting arxiv
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/11/63/9e71153b2d48c98f8079c90d7211bc65515cc1ad18c3328c3c0472e68f44/arxiv-2.4.0-py3-none-any.whl (12 kB)
+Collecting beautifulsoup4
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/1a/39/47f9197bdd44df24d67ac8893641e16f386c984a0619ef2ee4c51fbbc019/beautifulsoup4-4.14.3-py3-none-any.whl (107 kB)
+Collecting pdf2image
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/62/33/61766ae033518957f877ab246f87ca30a85b778ebaad65b7f74fa7e52988/pdf2image-1.17.0-py3-none-any.whl (11 kB)
+Collecting botocore<1.36.0,>=1.35.99 (from boto3==1.35.99)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/fc/dd/d87e2a145fad9e08d0ec6edcf9d71f838ccc7acdd919acc4c0d4a93515f8/botocore-1.35.99-py3-none-any.whl (13.3 MB)
+Collecting jmespath<2.0.0,>=0.7.1 (from boto3==1.35.99)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/14/2f/967ba146e6d58cf6a652da73885f52fc68001525b4197effc174321d70b4/jmespath-1.1.0-py3-none-any.whl (20 kB)
+Collecting s3transfer<0.11.0,>=0.10.0 (from boto3==1.35.99)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/66/05/7957af15543b8c9799209506df4660cba7afc4cf94bfb60513827e96bed6/s3transfer-0.10.4-py3-none-any.whl (83 kB)
+Collecting python-dateutil<3.0.0,>=2.1 (from botocore<1.36.0,>=1.35.99->boto3==1.35.99)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ec/57/56b9bcc3c9c6a792fcbaf139543cee77261f3651ca9da0c93f5c1221264b/python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+Collecting urllib3!=2.2.0,<3,>=1.25.4 (from botocore<1.36.0,>=1.35.99->boto3==1.35.99)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/39/08/aaaad47bc4e9dc8c725e68f9d04865dbcb2052843ff09c97b08904852d84/urllib3-2.6.3-py3-none-any.whl (131 kB)
+Collecting six>=1.5 (from python-dateutil<3.0.0,>=2.1->botocore<1.36.0,>=1.35.99->boto3==1.35.99)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/b7/ce/149a00dd41f10bc29e5921b496af8b574d8413afcd5e30dfa0ed46c2cc5e/six-1.17.0-py2.py3-none-any.whl (11 kB)
+Collecting MarkupSafe>=2.0 (from jinja2)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/af/cd/ce6e848bbf2c32314c9b237839119c5a564a59725b53157c856e90937b7a/markupsafe-3.0.3-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (20 kB)
+Collecting charset_normalizer<4,>=2 (from requests)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/36/3b/60cbd1f8e93aa25d1c669c649b7a655b0b5fb4c571858910ea9332678558/charset_normalizer-3.4.4-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (153 kB)
+Collecting idna<4,>=2.5 (from requests)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/0e/61/66938bbb5fc52dbdf84594873d5b51fb1f7c7794e9c0f5bd885f30bc507b/idna-3.11-py3-none-any.whl (71 kB)
+Collecting certifi>=2017.4.17 (from requests)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/e6/ad/3cc14f097111b4de0040c83a525973216457bbeeb63739ef1ed275c1c021/certifi-2026.1.4-py3-none-any.whl (152 kB)
+Collecting feedparser~=6.0.10 (from arxiv)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/4e/eb/c96d64137e29ae17d83ad2552470bafe3a7a915e85434d9942077d7fd011/feedparser-6.0.12-py3-none-any.whl (81 kB)
+Collecting typing-extensions>=4.0.0 (from arxiv)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/18/67/36e9267722cc04a6b9f15c7f3441c2363321a3ea07da7ae0c0707beb2a9c/typing_extensions-4.15.0-py3-none-any.whl (44 kB)
+Collecting sgmllib3k (from feedparser~=6.0.10->arxiv)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/9e/bd/3704a8c3e0942d711c1299ebf7b9091930adae6675d7c8f476a7ce48653c/sgmllib3k-1.0.0.tar.gz (5.8 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting soupsieve>=1.6.1 (from beautifulsoup4)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/46/2c/1462b1d0a634697ae9e55b3cecdcb64788e8b7d63f54d923fcd0bb140aed/soupsieve-2.8.3-py3-none-any.whl (37 kB)
+Building wheels for collected packages: sgmllib3k
+  Building wheel for sgmllib3k (pyproject.toml): started
+  Building wheel for sgmllib3k (pyproject.toml): finished with status 'done'
+  Created wheel for sgmllib3k: filename=sgmllib3k-1.0.0-py3-none-any.whl size=6090 sha256=167d48ba7234feb72475601b44c5eb9d089b5c67ed27e9f57b26dc86fe2cf40b
+  Stored in directory: /home/songyuxuan/.cache/pip/wheels/50/20/4b/e95fc891917d652cb6ecbfea035cf3ce640259cf857aaa21a7
+Successfully built sgmllib3k
+Installing collected packages: sgmllib3k, pydub, urllib3, typing-extensions, tqdm, toml, soupsieve, six, pillow, MarkupSafe, jmespath, idna, feedparser, charset_normalizer, certifi, requests, python-dateutil, pdf2image, jinja2, beautifulsoup4, botocore, arxiv, s3transfer, boto3
+
+Successfully installed MarkupSafe-3.0.3 arxiv-2.4.0 beautifulsoup4-4.14.3 boto3-1.35.99 botocore-1.35.99 certifi-2026.1.4 charset_normalizer-3.4.4 feedparser-6.0.12 idna-3.11 jinja2-3.1.6 jmespath-1.1.0 pdf2image-1.17.0 pillow-12.1.0 pydub-0.25.1 python-dateutil-2.9.0.post0 requests-2.32.5 s3transfer-0.10.4 sgmllib3k-1.0.0 six-1.17.0 soupsieve-2.8.3 toml-0.10.2 tqdm-4.67.3 typing-extensions-4.15.0 urllib3-2.6.3
